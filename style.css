@@ -151,6 +151,8 @@ button:hover {
     padding: 12px 24px;
     font-size: 1rem;
   }
+  body{
+    background: url("images/image2.jpg") no-repeat center bottom/cover;}
 }
 
 @media (max-width: 480px) {
