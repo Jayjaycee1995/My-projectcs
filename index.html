@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <div class="background-overlay"></div>
+    <div class="rose-petals"></div>
+    <div class="onboarding-flow">
+      <div class="step step-1 active">
+        <h1>Hey there, my love ❤️</h1>
+        <p>I’ve been thinking about you a lot lately...</p>
+        <button class="next-btn">Next</button>
+      </div>
+      <div class="step step-2">
+        <h1>You make every day special 🌹</h1>
+        <p>
+          Your smile lights up my world, and your laughter is my favorite sound.
+        </p>
+        <button class="next-btn">Next</button>
+      </div>
+      <div class="step step-3">
+        <h1>I cherish every moment with you 💕</h1>
+        <p>
+          From our silly jokes to our deep conversations, everything feels
+          perfect with you.
+        </p>
+        <button class="next-btn">Next</button>
+      </div>
+      <div class="step step-4">
+        <h1>Will you be my Valentine? 💌</h1>
+        <p>I can’t imagine spending this special day with anyone but you.</p>
+        <button id="valentine-yes">Yes!</button>
+        <button id="valentine-no">No</button>
+      </div>
+      <div class="step step-5">
+        <h1>Thank You 💖</h1>
+        <p>I love you more than words can express. Happy Valentine's Day!</p>
+        <button id="share-whatsapp">Tell Wale your response</button>
+      </div>
+    </div>
+    <audio id="romantic-music" loop>
+      <source src="romantic-song.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <script src="script.js"></script>
+  </body>
+</html>
